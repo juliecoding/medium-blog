@@ -1,191 +1,56 @@
-<div class="container">
-  <div class="page-header">
-    <h1>Bootstrap Tutorial</h1>
-  </div>
-  <div class="jumbotron">
-    <p>
-      Lorem ipsum and such
-    </p>
+<body>
 
-    <p>
-      <a href="#" class="btn btn-defaul btn-lg" role="button">More info</a>
+  <section class="container">
 
-      <button type="submit" class="btn btn-danger" role="button">Button</button>
-
-      <div class="btn-group btn-group-lg" role="group">
-        <button type="button" class="btn btn-default" role="button">Choice 1</button>
-        <button type="button" class="btn btn-default" role="button">Choice 2</button>
-        <button type="button" class="btn btn-default" role="button">Choice 3</button>
-      </div>
-
-
-    </p>
-  </div>
-
-  <div class="row">
-
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-      <h4>Column 1</h4>
-      <p>
-        Mollit laboris sunt laboris tempor. Commodo Lorem voluptate minim magna tempor ut eu ad magna. Sunt incididunt consectetur eu exercitation ut ut.
-      </p>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-      <h4>Column 2</h4>
-      <p>
-        Mollit laboris sunt laboris tempor. Commodo Lorem voluptate minim magna tempor ut eu ad magna. Sunt incididunt consectetur eu exercitation ut ut.
-      </p>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-      <h4><a href="#col3Content" data-toggle="collapse">Column 3</a></h4>
-      <p id="col3Content">
-        Mollit laboris sunt laboris tempor. Commodo Lorem voluptate minim magna tempor ut eu ad magna. Sunt incididunt consectetur eu exercitation ut ut.
-      </p>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-      <h4>Column 4</h4>
-      <p>
-        Mollit laboris sunt laboris tempor. Commodo Lorem voluptate minim magna tempor ut eu ad magna. Sunt incididunt consectetur eu exercitation ut ut.
-      </p>
-    </div>
-
-    <div class="well hidden-sm hidden-md">
-      <h1>Holy cow this is gigantic!</h1>
-    </div>
-
-    <div class="row">
-      <div class="col-md-offset-6">
-        <h3>TABLE GOES HERE</h3>
-      </div>
-    </div>
-
-    <div id="theCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#theCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#theCarousel" data-slide-to="2" class=""></li>
-        <li data-target="#theCarousel" data-slide-to="3" class="active"></li>
-      </ol>
-
-      <div class="carousel-inner">
-
-        <div class="item active">
-          <div class="slide1"></div>
-          <div class="carousel-caption">
-            <h1>Amazing backgrounds</h1>
-            <p>Thousands of Backgrounds for Free</p>
-            <p><a href="#" class="btn btn-primary btn-sm">Get them now</a></p>
-          </div>
+    <nav class="navbar">
+      <div class="row">
+        <!--<div class="navbar-brand">-->
+        <h1 class="">Medium</h1>
+        <!--</div>-->
+        <!--USE THE CLASS LIKE DISPLAY HIDDEN. CAN'T REMEMBER ITS NAME-->
+        <div class="pull-right">
+          <ul class="nav">
+            <li><a>Write a story</a></li>
+            <li><a>Sign in/Sign up</a></li>
+            <li class="glyphicon glyphicon-search">
+              <a></a>
+            </li>
+          </ul>
         </div>
-
-        <div class="item">
-          <div class="slide2"></div>
-          <div class="carousel-caption">
-            <h1>1000s of Colors</h1>
-            <p>Rainbow-rific!</p>
-            <p><a href="#" class="btn btn-primary btn-sm">Get them now</a></p>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="slide3"></div>
-          <div class="carousel-caption">
-            <h1>Amazing illustrations</h1>
-            <p>And they're all Free</p>
-            <p><a href="#" class="btn btn-primary btn-sm">Get them now</a></p>
-          </div>
-        </div>
-
-        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-        <a class="right carousel-control" href="#theCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-
-        <img class="img-responsive" />
-
       </div>
+      <hr />
 
-    </div>
-
-    <div class="dropdown">
-      <button class="btn btn-primary btn-lg dropdown-toggle">Favorite hero<span class="caret"></span>
-      </button>
-
-      <ul class="dropdown-menu">
-        <li class="dropdown-header">Marvel</li>
-        <li class="">
-          <a>Spiderman</a>
-        </li>
-        <li class="">
-          <a>Captain America</a>
-        </li>
-        <li>
-          <a>
-            Iron Man
-          </a>
-        </li>
-
-        <li class="divider" role="seperator"></li>
-        <li class="dropdown-header">DC</li>
-
-        <li>
-          <a class="disabled">Superman</a>
-        </li>
-        <li>
-          <a>Batman</a>
-        </li>
-        <li>
-          <a>Flash</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="input-group">
-      <span class="input-group-addon">Your Name</span>
-      <input type="text" class="form-control" placeholder="Full Name" />
-    </div>
-    <br />
-
-    <!--NAVIGATION EXAMPLE-->
-    <uL>
-      <li>
-        <a>Home</a>
-      </li>
-      <li>
-        <a>About</a>
-      </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
-        <ul class="dropdown menu">
-          <li><a>Phone</a></li>
-          <li><a>Email</a></li>
-          <li><a>Schedule an appointment</a></li>
+      <div class="row">
+        <ul class="nav">
+          <li><a>Home</a></li>
+          <li><a>Popular on Medium</a></li>
+          <li><a>Staff Picks</a></li>
         </ul>
-      </li>
-    </uL>
+      </div>
+    </nav>
 
-    <ul class="nav nav-pills nav-stacked">
-      <li class="active">
-        <a>Home</a>
-      </li>
-      <li>
-        <a>About</a>
-      </li>
-    </ul>
+    <hr />
+    <!--^To be replaced with a slight bottom box shadow! -->
 
+  </section>
 
-  </div>
-</div>
+  <section class="container">
+    {{me}}
+    <div class="row">
+      <h2>Popular on Medium</h2>
+    </div>
+    <div class="row">
+      <div>Background image</div>
+      <div>
+        <h3>Feature article title</h3>
+        <p>Article's byline, err, description thing</p>
+        <div>
+          <div>Author's image</div>
+          <h6>Author's name</h6>
+          <p>Publish date</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-<!--TABLE table-bordered table-striped table-hover text-center-->
-<!--IMG img-responsive img-thumbnail img-rounded img-circle pull-left (floats things to the left)-->
-<!--TEXT text-primary text-success text-danger etc.-->
-<!--NAV nav-pills nav-tabs-->
-<!--NAVBAR navbar navbar-default navbar-header navbar-brand navbar-toggle-->
-<!--PAGINATION-->
-<!--PROGRESS progress-bar progress-bar-striped role="progressbar"-->
-<!--MEDIA media-left media-top media-object media-body media-heading 'I don't understand the purpose of this one'-->
-<!--LIST GROUP list-group-item list-group-item-heading list-group-item-text list-group-item-warning-->
-<!--BADGE-->
+</body>
